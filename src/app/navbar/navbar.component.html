@@ -4,11 +4,24 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="navbar-nav">
-                <a href="#" class="nav-link me-3 active" aria-current="page">Option 1</a>
-                <a href="#" class="nav-link me-3">Option 2</a>
-                <a href="#" class="nav-link me-3">Option 3</a>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <div class="navbar-nav navbarItems">
+                <a
+                    routerLink="/projects"
+                    routerLinkActive="active"
+                    #routerLinkProject="routerLinkActive"
+                    class="nav-link me-3"
+                    [attr.aria-current]="routerLinkProject.isActive ? 'page' : ''">
+                    Projects
+                </a>
+                <a
+                    routerLink="/about"
+                    routerLinkActive="active"
+                    #routerLinkAbout="routerLinkActive"
+                    class="nav-link ms-3"
+                    [attr.aria-current]="routerLinkAbout.isActive ? 'page' : ''">
+                    About
+                </a>
             </div>
         </div>
     </div>
