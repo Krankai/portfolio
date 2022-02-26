@@ -6,13 +6,21 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CollectionComponent } from './collection/collection.component';
 import { AboutComponent } from './about/about.component';
+import { ProjectMiluComponent } from './project-milu/project-milu.component';
+import { ProjectDinoageComponent } from './project-dinoage/project-dinoage.component';
+import { ProjectPrisonbreakComponent } from './project-prisonbreak/project-prisonbreak.component';
+import { IntroductionComponent } from './introduction/introduction.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     CollectionComponent,
-    AboutComponent
+    AboutComponent,
+    ProjectMiluComponent,
+    ProjectDinoageComponent,
+    ProjectPrisonbreakComponent,
+    IntroductionComponent
   ],
   imports: [
     BrowserModule,

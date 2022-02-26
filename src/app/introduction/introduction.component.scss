@@ -1,0 +1,31 @@
+.introQuote {
+    padding: 180px 0px;
+}
+
+.blockquote p {
+    quotes: "\201C" "\201D";
+}
+
+blockquote p:before {
+    content: open-quote;
+}
+
+blockquote p:after {
+    content: close-quote;
+}
+
+.cardImage {
+    cursor: pointer;
+    height: 240px;
+    //object-fit: cover;
+    //object-position: left top;
+}
+
+#milu.cardImage {
+    object-fit: cover;
+    object-position: left top;
+}
+
+.cardBody {
+    min-height: 140px
+}
