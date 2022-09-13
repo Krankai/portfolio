@@ -10,6 +10,9 @@ import { ProjectMiluComponent } from './project-milu/project-milu.component';
 import { ProjectDinoageComponent } from './project-dinoage/project-dinoage.component';
 import { ProjectPrisonbreakComponent } from './project-prisonbreak/project-prisonbreak.component';
 import { IntroductionComponent } from './introduction/introduction.component';
+import { PersonalCollectionComponent } from './personal-collection/personal-collection.component';
+import { WorkCollectionComponent } from './work-collection/work-collection.component';
+import { GreetingComponent } from './greeting/greeting.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { IntroductionComponent } from './introduction/introduction.component';
     ProjectMiluComponent,
     ProjectDinoageComponent,
     ProjectPrisonbreakComponent,
-    IntroductionComponent
+    IntroductionComponent,
+    PersonalCollectionComponent,
+    WorkCollectionComponent,
+    GreetingComponent
   ],
   imports: [
     BrowserModule,
