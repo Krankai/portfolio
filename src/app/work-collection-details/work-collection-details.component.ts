@@ -1,14 +1,13 @@
-import { OnDestroy } from '@angular/core';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'personal-collection-details',
-  templateUrl: './personal-collection-details.component.html',
-  styleUrls: ['./personal-collection-details.component.scss']
+  selector: 'work-collection-details',
+  templateUrl: './work-collection-details.component.html',
+  styleUrls: ['./work-collection-details.component.scss']
 })
-export class PersonalCollectionDetailsComponent implements OnInit, OnDestroy {
+export class WorkCollectionDetailsComponent implements OnInit, OnDestroy {
 
   projectName: string;
   subscription: Subscription;

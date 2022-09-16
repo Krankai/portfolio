@@ -15,6 +15,7 @@ import { WorkCollectionComponent } from './work-collection/work-collection.compo
 import { GreetingComponent } from './greeting/greeting.component';
 import { PersonalCollectionDetailsComponent } from './personal-collection-details/personal-collection-details.component';
 import { ProjectMemorileComponent } from './project-memorile/project-memorile.component';
+import { WorkCollectionDetailsComponent } from './work-collection-details/work-collection-details.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ProjectMemorileComponent } from './project-memorile/project-memorile.co
     WorkCollectionComponent,
     GreetingComponent,
     PersonalCollectionDetailsComponent,
-    ProjectMemorileComponent
+    ProjectMemorileComponent,
+    WorkCollectionDetailsComponent
   ],
   imports: [
     BrowserModule,

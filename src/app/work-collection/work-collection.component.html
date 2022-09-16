@@ -1,1 +1,22 @@
-<p>work-collection works!</p>
+<greeting [align]="'center'">
+    Welcome to my working space.<br>
+    These are all projects I have contributed during my time working for various game companies,
+    either to the development or operating process, or both.<br>
+</greeting>
+<div class="row justify-content-center">
+    <div class="col-6 border-1 border-bottom"></div>
+</div>
+<br><br><br>
+<div class="row gx-xl-5 gx-2 gy-3">
+    <div class="col-xl-4 col-md-6 col-10">
+        <div class="card">
+            <img src="assets/images/milu_1.png" alt="image" class="card-img-top cardImage">
+            <div class="card-body cardBody pointer-cursor" [routerLink]="['/work', 'milu']">
+                <h5 class="card-title fw-bold">M.I.L.U (2019 - present)</h5>
+                <p class="card-text">
+                    An on-going multiplayer simulation game about daily-life activities.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

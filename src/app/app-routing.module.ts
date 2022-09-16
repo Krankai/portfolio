@@ -6,13 +6,16 @@ import { PersonalCollectionComponent } from './personal-collection/personal-coll
 import { WorkCollectionComponent } from './work-collection/work-collection.component';
 import { ProjectMiluComponent } from './project-milu/project-milu.component';
 import { PersonalCollectionDetailsComponent } from './personal-collection-details/personal-collection-details.component';
+import { WorkCollectionDetailsComponent } from './work-collection-details/work-collection-details.component';
 
 const routes: Routes = [
-  { path: '', component: CollectionComponent },
+  //{ path: '', component: CollectionComponent },
+  { path: '', component: AboutComponent },
 
   { path: 'personal/:name', component: PersonalCollectionDetailsComponent },
   { path: 'personal', component: PersonalCollectionComponent },
 
+  { path: 'work/:name', component: WorkCollectionDetailsComponent },
   { path: 'work', component: WorkCollectionComponent },
 
   { path: 'projects/:name', component: ProjectMiluComponent },
