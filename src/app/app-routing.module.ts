@@ -18,8 +18,8 @@ const routes: Routes = [
   { path: 'work/:name', component: WorkCollectionDetailsComponent },
   { path: 'work', component: WorkCollectionComponent },
 
-  { path: 'projects/:name', component: ProjectMiluComponent },
-  { path: 'projects', component: CollectionComponent },
+  // { path: 'projects/:name', component: ProjectMiluComponent },
+  // { path: 'projects', component: CollectionComponent },
 
   { path: 'about', component: AboutComponent },
   // { path: '**', component: PageNotFoundComponent },
