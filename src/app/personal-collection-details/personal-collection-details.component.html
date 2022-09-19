@@ -1,0 +1,8 @@
+<div class="row justify-content-center">
+    <div class="col-sm-10 col-12">
+        <container-element [ngSwitch]="this.projectName">
+            <project-memorile *ngSwitchCase="'memorile'"></project-memorile>
+            <div *ngSwitchDefault>Invalid project</div>
+        </container-element>
+    </div>
+</div>
